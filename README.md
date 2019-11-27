@@ -33,11 +33,4 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 ```
 
-# resources
-- https://tableplus.com/blog/2018/10/how-to-create-a-superuser-in-mysql.html
-- https://zemez.io/magento/support/how-to/create-new-database-database-user-grant-permissions-ssh/
-- https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
-- https://tutorialzine.com/2010/02/php-mysql-download-counter
 
-# telegram
-t.me/shahadansaad

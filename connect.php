@@ -1,0 +1,14 @@
+<?php
+
+require_once 'config-sample.php';
+
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+
+function close_connection(){
+	global $conn;
+	mysqli_close($conn);
+}
+?>
